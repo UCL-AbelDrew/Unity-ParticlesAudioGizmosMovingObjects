@@ -65,6 +65,6 @@ public class SimpleMove : MonoBehaviour
 
     public void Move(Vector3 direction)
     {
-        transform.Translate(direction);
+        transform.Translate(direction, Space.World);
     }
 }

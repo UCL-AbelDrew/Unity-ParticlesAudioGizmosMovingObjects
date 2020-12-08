@@ -121,7 +121,7 @@ public class MoveObjectOverTime : MonoBehaviour
         {
             directionAndSpeed = m_targetDirection.normalized * (m_maxSpeed * Time.deltaTime);
         }
-        transform.Translate(directionAndSpeed);
+        transform.Translate(directionAndSpeed, Space.World);
                
     }
 
