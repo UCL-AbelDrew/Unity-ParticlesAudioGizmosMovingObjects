@@ -40,7 +40,7 @@ public class MoveObjectOverTime : MonoBehaviour
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (m_moving)
         {
@@ -115,6 +115,7 @@ public class MoveObjectOverTime : MonoBehaviour
 
         if (m_maxSpeed * Time.deltaTime > m_targetDistance)
         {
+            
             directionAndSpeed = (m_targetDirection.normalized * m_targetDistance);
         }
         else

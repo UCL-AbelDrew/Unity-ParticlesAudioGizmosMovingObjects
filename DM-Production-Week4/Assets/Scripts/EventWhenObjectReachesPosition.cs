@@ -11,7 +11,8 @@ public class EventWhenObjectReachesPosition : MonoBehaviour
     public GameObject m_eventPositionObject;
     public TargetPositionEvent m_targetPositionEvent;
 
-    private bool m_positionChanged;
+    [SerializeField]
+    private bool m_positionChanged = true;
 
     private void FixedUpdate()
     {
@@ -19,8 +20,9 @@ public class EventWhenObjectReachesPosition : MonoBehaviour
         // If at position, invoke once.
         if (transform.position == m_eventPositionObject.transform.position)
         {
+         
             if (m_positionChanged)
-            {
+            {              
                 m_targetPositionEvent.Invoke(gameObject);
                 m_positionChanged = false;
             }
