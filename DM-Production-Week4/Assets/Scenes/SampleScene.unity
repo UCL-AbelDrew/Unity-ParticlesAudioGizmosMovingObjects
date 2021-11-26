@@ -2240,7 +2240,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11268,7 +11267,7 @@ PrefabInstance:
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
@@ -11282,6 +11281,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
+      propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
+        type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 573587461}
@@ -11289,7 +11293,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 474463636}
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -11302,6 +11306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
+      propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
+        type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Modify
       objectReference: {fileID: 0}
@@ -11309,6 +11318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: PlayParticleAndAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
+        type: 3}
+      propertyPath: m_activateTriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ParticleAndSound, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 105368612627993418, guid: 2eca8d3026654264c9c6f009c39a185c,
         type: 3}
