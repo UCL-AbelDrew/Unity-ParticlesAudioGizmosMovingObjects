@@ -117,6 +117,8 @@ public class MoveObjectOverTime : MonoBehaviour
         {
             
             directionAndSpeed = (m_targetDirection.normalized * m_targetDistance);
+
+            // Could call event here instead of separately to fix buggy frame
         }
         else
         {
